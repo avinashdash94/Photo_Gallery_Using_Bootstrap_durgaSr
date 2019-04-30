@@ -1,0 +1,12 @@
+.navbar
+{
+    background: orange;
+}
+.navbar a{
+    color: white;
+}
+.container .jumbotron /*inside  container Class there is jumbotron class */
+{
+    background: green;
+    color: white;
+}
