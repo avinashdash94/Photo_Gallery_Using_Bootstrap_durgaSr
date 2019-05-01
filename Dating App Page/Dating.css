@@ -1,0 +1,41 @@
+.content
+{
+    text-align: center;
+    padding-top: 25%;
+}
+body
+{
+    background: url(https://images.unsplash.com/photo-1515636395880-48618f2beb8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);/*for background image from unsplah.com and copy the link "'copy image address'" of image*/
+    background-repeat: no-repeat;/* to make imag no repte*/
+    background-size: cover;/* to cover the entire page  by image */
+    background-position:center;/* to make image center lised*/
+
+}
+html{
+    height:100%;/* it used to to cover the screen by image completely  even if we reduce the screen size */
+}
+#tc1 /* id for h1 tag (text content in page )*/
+{
+    color:white;
+    font-weight: 700; /* for boldness*/
+    font-size: 5em; /*seize of text  5em means respeted to parent tag size*/
+}
+#tc2{ /* is an  id for text in page*/
+    color: yellow;
+}
+#hr1{ /* style for horizontal line*/
+    width:600px;
+    height: 12px;
+    border-top:  4px solid white;
+        
+}
+.navbar{ /* to make color of navbar according to you choice bt befor this remove by default color in navbr*/
+    background: rgb(240, 110, 110);
+}
+.navbar a{ /* to chang tue color of text */
+    color:white;
+}
+.icon-bar{ /*is a class to change color of hamburger */ 
+    border:1px solid blue;
+}
+
